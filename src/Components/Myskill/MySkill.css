@@ -1,0 +1,42 @@
+body{
+    background-color: black !important;
+    color: aliceblue;
+}
+
+
+.skills-list{
+   flex-direction: row;
+   margin-top: 30px !important;
+   height: 230px !important;
+  width: 100%;
+  /* border: 2px yellow solid; */
+}
+.skillset{
+    width: 60%;
+    height:100% ;
+    /* background-color: blue !important; */
+}
+.skill{
+    font-size: 1.2em;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.skill:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+.icon{
+    font-size: 69px !important;
+    justify-content: center;
+    margin: 15px 0px 0px 30px ;
+}
+.name{
+/* background-color: aqua; */
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 60px !important;
+    left: -5px !important;
+}

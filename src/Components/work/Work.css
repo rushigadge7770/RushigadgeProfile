@@ -1,0 +1,126 @@
+ *{
+   margin: 0px;
+   padding: 0px; 
+}
+.mainwork{
+    margin-top: 30px !important;
+}
+.mywork
+{
+   color: aliceblue;
+}
+
+ .my-work {
+    padding: 50px;
+    background-color: black;
+    color: white;
+  }
+  
+  .my-work-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .filter-buttons {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .filter-buttons button {
+    padding: 10px 20px;
+    margin: 15px;
+    background-color: rgb(255, 183, 0);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .filter-buttons button.active,
+  .filter-buttons button:hover {
+    background-color: #92b300;
+  }
+  
+  .project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .project-card {
+    width: 400px;
+    background-color:rgb(229, 180, 106);
+    color: black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 0.778);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    border: 2px solid rgb(87, 215, 36)
+    ;
+
+    
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .project-content {
+    padding: 20px;
+    /* background: url(./media/bg.png) no-repeat center center/cover ; */
+  }
+  
+  .project-content h3 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 10px;
+  
+ 
+
+  }
+  
+  .project-content p {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 15px;
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: #e02329;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  .project-code {
+    text-decoration: none;
+    color: #1c1a17;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-left: 40px;
+  }
+  
+  .project-link:hover {
+    color: #0056b3;
+  }
+  .project-code:hover {
+    color: #86b300;
+  }
+
+
+
+  @media (max-width: 768px){
+    #mywork{
+      transform: translate(78px, 0px) !important;
+    }
+  }
+  

@@ -1,0 +1,111 @@
+.n{
+   
+    border: 1px dotted rgb(153, 8, 215) !important;
+}
+.list1{
+    color: white;
+        text-shadow: 5px 5px 10px #d60ae5 !important;
+  
+      
+}
+.abc {
+    background-color: rgb(0, 0, 0) !important;
+   }
+   nav{
+    border: 2px solid #d60ae5;
+   }
+.img2{
+   
+    border-radius: 50%;
+    border: 2px solid #d60ae5;
+ 
+}
+.na{
+    border: 2px solid #d60ae5 !important;
+}
+
+.list1:hover{
+    margin: 3px;
+    text-decoration-line: underline;
+} 
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f9;
+  }
+  
+  .about-me-content {
+    max-width: 600px;
+    margin-right: 50px;
+    animation: fadeInUp 1s ease-out; /* Animation for the text */
+  }
+  
+  .about-me-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff6f61;
+    display: inline-block;
+  }
+  
+  .about-me-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .about-me-button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .about-me-button:hover {
+    background-color: #e55b4f;
+  }
+  
+  .about-me-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    animation: bounceIn 1s ease-out; /* Animation for the image */
+  }
+  
+  /* Keyframe animations for a unique effect */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    60% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    80% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
